@@ -1,4 +1,4 @@
-package com.github.jiorpilla.shipsageapp.startup
+package com.github.jiorpilla.ssapp.startup
 
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project

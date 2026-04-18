@@ -1,9 +1,9 @@
-package com.github.jiorpilla.shipsageapp.services
+package com.github.jiorpilla.ssapp.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.jiorpilla.shipsageapp.MyBundle
+import com.github.jiorpilla.ssapp.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

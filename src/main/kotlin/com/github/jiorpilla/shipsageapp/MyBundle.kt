@@ -1,4 +1,4 @@
-package com.github.jiorpilla.shipsageapp
+package com.github.jiorpilla.ssapp
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,4 +1,4 @@
-package com.github.jiorpilla.shipsageapp.toolWindow
+package com.github.jiorpilla.ssapp.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.jiorpilla.shipsageapp.MyBundle
-import com.github.jiorpilla.shipsageapp.services.MyProjectService
+import com.github.jiorpilla.ssapp.MyBundle
+import com.github.jiorpilla.ssapp.services.MyProjectService
 import javax.swing.JButton
 
 

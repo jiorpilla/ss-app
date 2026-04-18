@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# shipsage-app Changelog
+# ss-app Changelog
 
 ## [Unreleased]
 ### Added
