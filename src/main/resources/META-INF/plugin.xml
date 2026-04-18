@@ -5,11 +5,10 @@
     <vendor>jiorpilla</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <depends>com.jetbrains.php</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.jiorpilla.ssapp.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.jiorpilla.ssapp.startup.MyProjectActivity" />
+        <gotoDeclarationHandler
+                implementation="com.github.jiorpilla.ssapp.navigation.ResourceGotoDeclarationHandler"/>
     </extensions>
 </idea-plugin>
