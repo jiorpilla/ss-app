@@ -18,11 +18,21 @@
 - [ ] Configure the [CODECOV_TOKEN](https://docs.codecov.com/docs/quick-start) secret for automated test coverage reports on PRs
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+Add go-to-declaration navigation for sv() and rs() method calls
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+Implement a PhpStorm plugin that provides Ctrl+Click navigation for
+ServiceAwareTrait's sv() and rs() helper methods:
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+- 1st arg (resource): navigates to the Service/Repository class
+- 2nd arg (method): navigates to the method (sv prefixes with 'biz')
+- 3rd arg params['api']: navigates to the camelCased sub-method
+  e.g. 'show.by-info' -> showByInfo()
+
+Also:
+- Retarget build from IntelliJ IDEA Community to PhpStorm 2025.1
+- Add com.jetbrains.php bundled plugin dependency
+- Fix package directory (shipsageapp -> ssapp) to match declarations
+- Remove template sample code (tool window, startup activity, service)
 <!-- Plugin description end -->
 
 ## Installation
